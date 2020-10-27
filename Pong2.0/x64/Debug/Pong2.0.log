@@ -1,0 +1,31 @@
+﻿  Pong2.0.cpp
+c:\users\vjgen\onedrive\documents\vs_projects\pong2.0\its_pong\pong2.0\cpu.h(30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vjgen\onedrive\documents\vs_projects\pong2.0\its_pong\pong2.0\cpu.h(31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vjgen\onedrive\documents\vs_projects\pong2.0\its_pong\pong2.0\ball.h(26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\vjgen\onedrive\documents\vs_projects\pong2.0\its_pong\pong2.0\ball.h(27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "void __cdecl `dynamic initializer for 'state''(void)" (??__Estate@@YAXXZ)
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl Ball::draw_Ball(struct SDL_Renderer *)" (?draw_Ball@Ball@@QEAAXPEAUSDL_Renderer@@@Z)
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawBlendMode referenced in function "void __cdecl draw_Text_Box(struct SDL_Renderer *,int,int,int,int)" (?draw_Text_Box@@YAXPEAUSDL_Renderer@@HHHH@Z)
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "public: void __cdecl Ball::draw_Ball(struct SDL_Renderer *)" (?draw_Ball@Ball@@QEAAXPEAUSDL_Renderer@@@Z)
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "void __cdecl draw_Text(struct SDL_Renderer *,struct SDL_Texture *,char *,int,int,int)" (?draw_Text@@YAXPEAUSDL_Renderer@@PEAUSDL_Texture@@PEADHHH@Z)
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function SDL_main
+Pong2.0.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function SDL_main
+LIBCMTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\vjgen\OneDrive\Documents\VS_Projects\Pong2.0\Its_Pong\Pong2.0\SDL2-2.0.10\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\vjgen\OneDrive\Documents\VS_Projects\Pong2.0\Its_Pong\Pong2.0\SDL2-2.0.10\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\vjgen\OneDrive\Documents\VS_Projects\Pong2.0\Its_Pong\Pong2.0\SDL2_image-2.0.5\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\vjgen\OneDrive\Documents\VS_Projects\Pong2.0\Its_Pong\Pong2.0\SDL2_mixer-2.0.4\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\vjgen\OneDrive\Documents\VS_Projects\Pong2.0\Its_Pong\x64\Debug\Pong2.0.exe : fatal error LNK1120: 21 unresolved externals
